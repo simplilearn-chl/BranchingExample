@@ -35,3 +35,13 @@ git add .
 git commit -m "Fourth Commit: Starting Feature 1"
 git push --set-upstream origin Feature1
 
+## Fifth Commit
+Adjustment to feature branch Feature1
+Adding text to feature1.txt
+
+### Steps
+echo "Adding Feature Text" >> feature1.txt
+git add .
+git commit -m "Fifth Commit: Adding Feature Text"
+git push
+
