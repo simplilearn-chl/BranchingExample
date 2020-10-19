@@ -15,8 +15,23 @@ git push -u origin main
 ## Third Commit
 Adding the Integration Branch
 
+### Steps
 git checkout -b IntegrationBranch
 emacs README.md
 git add . 
 git commit -m "Third commit adding IntegrationBranch"
 git push --set-upstream origin IntegrationBranch
+
+
+## Fourth Commit
+Adding the first Feature Branch Feature1
+
+### Steps
+
+git checkout -b Feature1
+emacs README.md
+touch feature1.txt
+git add .
+git commit -m "Fourth Commit: Starting Feature 1"
+git push --set-upstream origin Feature1
+
